@@ -10,22 +10,22 @@ console.log(greeting);
 
 //Question 3
 var characterName = "Hermione"
-console.log( str.toUpperCase(characterName));
-console.log(str.toLowerCase(characterName));
+console.log( characterName.toUpperCase());
+console.log(characterName.toLowerCase());
 
 //Question 4
-var spell = " Expelliarmus";
-console.log(${str1.trim(spell)});
+let spel = " Expelliarmus";
+console.log(spel.trim());
 
 //Question 5
 var quote = "I solemnly swear that I am up to no good ";
-console.log(${str1.trim(quote)});
+console.log(quote.trim(quote));
 
 //Question 6 
 var firstname = "Ron";
 var lastName = "Weasley";
-let combined = firstname.concat(lastName);
-console.log(combined);
+let combine = firstname.concat(lastName);
+console.log(combine);
 
 //Question 7 
 var sent = "Draco is a good wizard";
@@ -34,35 +34,34 @@ console.log(replacedStr);
 
 //Question 8
 let houses = ['Gryffindor', 'Hufflepuff', 'Ravenclaw'];
-houses.push(4, 5);
+houses.push('Slytherine');
 console.log(houses);
-let lastElement = arr.pop(houses);
+let lastElement = houses.pop();
 console.log(lastElement);
-console.log(lastElement);
+
 
 //Question 9
 let spell = ['ALlohormora', 'Lumos', 'Nox'];
-arr.unshift("accio");
+spell.unshift('accio');
 console.log( spell);
-console.log( firstElement);
 
 //Question 10
 let prof = ['DUmbledoor', 'Snape', 'Hagrid', "MCGonell"];
-let slicedArr = prof.slice(2, 3);
-console.log(slicedArr);
+let sliced = prof.slice(2, 3);
+console.log(sliced);
 
 //Question 11
 let stu = ['neville', 'Seamus', 'Dean', 'Parvati'];
-arr.splice(1, 4); 
-console.log("After splice(1, 2, 9, 10):", arr);
+stu.splice(1, 3); 
+console.log(stu);
 
 //Question 12
 let em = "Mischief Managed";
-let new = "harry"
-console.log("\ntrim() example:", `"${em.trim()}"`);
-console.log("toLowerCase():", em.toLowerCase());
-let combined = em.concat(new);
-console.log("\nconcat() example:", combined);
+let nam = "Harry"
+console.log( `"${em.trim()}"`);
+console.log(em.toLowerCase());
+let combined = em.concat(nam);
+console.log( combined);
 
 //Question 13
 let wizards = ['harry', 'hermione', 'ron']
@@ -72,7 +71,7 @@ console.log(wizards);
 //Question 14
 var mess = "Welcome to Hogwarts school of witchcraft"
 let slicedArr = mess.slice("Hogwarts");
-console.log("\nArray slice(1, 3):", slicedArr);
+console.log(slicedArr);
 let arr2 = ["Castle"];
-let combinedArr = arr.concat(arr2);
+let combinedArr = arr2.concat();
 console.log( combinedArr);
